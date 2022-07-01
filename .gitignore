@@ -1,0 +1,81 @@
+
+###> symfony/framework-bundle ###
+/.env.test
+.env
+/.env.local
+/.env.test.local
+composer.lock
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/public/module3d/
+/public/uploads/docproperty/
+/var/
+/.var/
+/.varr/
+/bin/.fuse_hidden000f673600000647
+/vendor/
+/public/uploads/
+/public/cadastre/bbox
+/public/cadastre/xml
+/public/cadastre/
+/public/media/
+/public/pdfoffre
+/public/csvengie/archived/
+/public/csvengie/pending/
+/public/csvwork/
+/public/csv/
+./public/prime
+.idea
+/src/Services/Api/MailMessageService.php
+/src/Controller/api/MailMessageController.php
+/src/Controller/Services/OnespanSign.php
+/src/Controller/Services/OnespanSign1.php
+/src/Controller/Services/OnespanSign2.php
+/src/Controller/Services/OnespanSignService1.php
+/src/Controller/Services/OneSpanSignService2.php
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
+/nbproject/private/
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+###> liip/imagine-bundle ###
+/public/media/cache/
+###< liip/imagine-bundle ###
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+
+.fuse_hidden000118e900000002
+
+public/mobility/index.txt
+
+./public/module3d/
+
+/.vscode/
+
+
+/tests/Auth/files/
+
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> squizlabs/php_codesniffer ###
+/.phpcs-cache
+/phpcs.xml
+###< squizlabs/php_codesniffer ###
