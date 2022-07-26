@@ -33,7 +33,7 @@ $ cd vhosts
 $ touch vhosts.conf
 
 ## Testing if all work & Starting docker
-$ docker-compose up-d
+$ docker-compose up -d
 
 ## Adding php.ini in the project
 $ cd php
@@ -45,7 +45,7 @@ add the following lines into docker-compose => www: part
 
 ## Creating project symfony
 $ docker exec www_docker_symfony \n
-$ composer create-project symfony/website-skeleton  \n
+$ composer create-project symfony  \n
 $ sudo chown -R $USER ./
 
 ## Config .env

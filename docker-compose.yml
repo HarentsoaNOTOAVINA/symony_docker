@@ -12,6 +12,16 @@ services:
     networks:
       - dev
 
+#  php:
+#    image: php:7.4-cli
+#    container_name: php_7_4
+#    restart: always
+#    volumes:
+#      - php: /var/lib/php
+#    networks:
+#      - dev
+
+
   phpmyadmin:
     image: phpmyadmin
     container_name: phpmyadmin_docker_symfony
@@ -19,7 +29,7 @@ services:
     depends_on:
       - db
     ports:
-      - 8080:80
+      - "8080:80"
     environment:
       PMA_HOST: db
     networks:
@@ -39,10 +49,10 @@ services:
     build: php
     container_name: www_docker_symfony
     ports:
-      - "8741:80"
+      - "80:80"
     volumes:
       - ./php/vhosts:/etc/apache2/sites-enabled
-      - ./:/var/www
+      - ./website-skeleton:/var/www
       - ./php/php.ini:/usr/local/etc/php/php.ini
     restart: always
     networks:
