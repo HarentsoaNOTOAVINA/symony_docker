@@ -52,7 +52,7 @@ services:
       - "80:80"
     volumes:
       - ./php/vhosts:/etc/apache2/sites-enabled
-      - ./website-skeleton:/var/www
+      - ./web:/var/www
       - ./php/php.ini:/usr/local/etc/php/php.ini
     restart: always
     networks:
